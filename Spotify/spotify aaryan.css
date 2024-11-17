@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* left side section box */
+.left_nav {
+    height: 90vh;
+    width: 25%;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    background-color: #121212;
+}
+
+/* box margin for home,search,etc  */
+.lnav-margin {
+    /* border: 2px solid black; */
+    margin-top: 50px;
+}
+
+/* for link tags in home , search ,etc boxes */
+.lnav-margin a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+/* for all icons in  */
+.lnav-margin i {
+    padding-left: 10px;
+    color: white;
+}
+
+/* for arrow and plus icon in your library section */
+#arr-plus {
+    float: right;
+    padding-right: 10px;
+}
+
+
+/* for your playlist section */
+.own_playlist {
+    /* border: 2px solid black; */
+    margin: 50px 36px;
+    /* for margin between library ans own playlist*/
+    padding-top: 30px;
+    /* for padding in text to make it in center*/
+    padding-left: 20px;
+    height: 125px;
+    width: 75%;
+    display: flex;
+    display: inline-block;
+    color: white;
+    background-color: #6f603f;
+    border-radius: 10px;
+}
+
+
+
+/* for browse podcasts section */
+.podcasts {
+    /* border: 2px solid black; */
+    margin: 0px 36px;
+    /* for margin between library ans own playlist*/
+    padding-top: 30px;
+    /* for padding in text to make it in center*/
+    padding-left: 20px;
+    height: 175px;
+    width: 75%;
+    display: flex;
+    display: inline-block;
+    color: white;
+    background-color: #6f603f;
+    border-radius: 10px;
+}
+
+
+/* for the button in playlist and podcast section */
+#boxes {
+    background-color: rgb(254, 255, 222);
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* here the right nav section is going to start and its elements */
+.right_nav {
+    /* border: 2px solid black; */
+    width: 75%;
+    height: 90vh;
+    border-radius: 5px;
+    margin-left: 2px;
+    color: white;
+    background-color: #121212;
+}
+
+/* this is the first section in right navbar */
+.part_a {
+    background-color: purple;
+    height: 20px;
+    padding: 20px;
+}
+
+/* first  */
+.pabutton {
+    width: 125px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    float: right;
+}
+
+#explore_premium {
+    background-color: #fff;
+}
