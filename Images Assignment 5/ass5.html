@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 4</title>
+    </head>
+    <style>
+        .header1 {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(255, 94, 0);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+
+        .header1 h1 {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .header1 img {
+            width: 150px;
+            height: 100px;
+        }
+
+        .header2 {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(32, 32, 32);
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .header2 a {
+            text-decoration: none;
+            padding-left: 30px;
+            padding-top: 15px;
+            color: white;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .header3 {
+            width: 100%;
+            height: 150px;
+            background-color: rgb(25, 167, 255);
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header3 h1 {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 100;
+            font-size: xx-large;
+        }
+
+        .header4 {
+            width: 100%;
+            height: 250px;
+            background-color: rgb(233, 233, 233);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .header4 img {
+            width: 300px;
+        }
+
+        .header5 {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(233, 233, 233);
+            display: flex;
+            justify-content: center;
+        }
+
+        .header5 h1 {
+            font-size: 50px;
+            color: red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+        .header6 {
+            background-color: rgb(233, 233, 233);
+            display: flex;
+            justify-content: center;
+        }
+
+        .header6 form {
+            border: 1px solid black;
+            background-color: #fff;
+            width: 300px;
+            height: 275px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+
+        #pswd {
+            width: 80%;
+            height: 30px;
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #btns {
+            background-color: #ff2222;
+            width: 100px;
+            margin-top: 20px;
+            margin-left: 20px;
+            height: 30px;
+        }
+
+        #lbls {
+            margin-left: 20px;
+            padding-top: 50px;
+        }
+
+        footer {
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            color: white;
+            background-color: #2b2b2b;
+        }
+    </style>
+
+    <body>
+        <section class="header1">
+            <img src="logo.png" alt="">
+            <h1>Gadget Store</h1>
+            <img src="logo2.png" alt="">
+        </section>
+
+        <section class="header2">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Categories</a>
+            <a href="#">Contact Us</a>
+        </section>
+
+        <section class="header3">
+            <h1>Mega Discounts!</h1>
+        </section>
+
+        <section class="header4">
+            <img src="iphone16.png" alt="">
+            <img src="Ps5.png" alt="">
+            <img src="laptop.png" alt="">
+        </section>
+
+        <section class="header5">
+            <h1>Coming Soon</h1>
+        </section>
+
+        <section class="header6">
+            <form action="">
+                <label id="lbls" for="">Username : </label>
+                <br>
+                <input name="" type="text" id="pswd" placeholder="Username"></input>
+                <br>
+                <label id="lbls" for="">Password : </label>
+                <br>
+                <input name="" type="password" id="pswd" placeholder="Password"></input>
+                <br>
+                <button type="submit" id="btns">Login</button>
+                <br>
+                <button type="reset" id="btns">Cancel</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; gadgetstore.com</p>
+        </footer>
+    </body>
+
+</html>
