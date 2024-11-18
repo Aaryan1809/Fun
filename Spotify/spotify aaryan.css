@@ -1,5 +1,4 @@
 body {
-    display: flex;
     background-color: grey;
     margin: 0;
     padding: 0;
@@ -13,6 +12,7 @@ body {
     /* border: 2px solid black; */
     border-radius: 5px;
     background-color: #121212;
+    position: fixed;
 }
 
 /* box margin for home,search,etc  */
@@ -55,7 +55,7 @@ body {
     display: flex;
     display: inline-block;
     color: white;
-    background-color: #6f603f;
+    background-color: #232322;
     border-radius: 10px;
 }
 
@@ -74,7 +74,7 @@ body {
     display: flex;
     display: inline-block;
     color: white;
-    background-color: #6f603f;
+    background-color: #232322;
     border-radius: 10px;
 }
 
@@ -91,30 +91,130 @@ body {
 /* here the right nav section is going to start and its elements */
 .right_nav {
     /* border: 2px solid black; */
-    width: 75%;
-    height: 90vh;
-    border-radius: 5px;
+    width: 74%;
+    height: 210vh;
+    border-raius: 5px;
     margin-left: 2px;
     color: white;
     background-color: #121212;
+    margin-left: 25.2%;
+    /* position: relative; */
 }
 
 /* this is the first section in right navbar */
 .part_a {
-    background-color: purple;
-    height: 20px;
-    padding: 20px;
+    /* background-color: purple; */
+    height: 40px;
+    padding: 30px;
 }
 
-/* first  */
+/* buttons */
 .pabutton {
     width: 125px;
     height: 40px;
     border-radius: 25px;
     cursor: pointer;
     float: right;
+    margin-left: 20px;
+    background-color: #121212;
+    color: white;
 }
 
+/* premium button colors */
 #explore_premium {
     background-color: #fff;
+    color: black;
+}
+
+/* this is the second section of nav */
+.part_b {
+    margin-top: 50px;
+    height: 30px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: xx-large;
+    /* background-color: #fff; */
+}
+
+/* for all image container */
+.imgcontainer {
+    height: 275px;
+    /* background-color: #fff; */
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* for the head of  */
+.descriptions-head {
+    /* color: black; */
+    font-weight: bolder;
+}
+
+.descriptions {
+    margin: 0;
+    /* color: black; */
+}
+
+/* for all thumbnails */
+.thumbnails {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    /* margin-bottom: 100px; */
+}
+
+/* same as part_b so code pasted od part b */
+.part_d {
+    margin-top: 50px;
+    height: 30px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: xx-large;
+    /* background-color: #fff; */
+    margin-bottom: 50px;
+}
+
+.part_e {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+}
+
+.part_f {
+    margin-top: 50px;
+    height: 30px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: xx-large;
+    /* background-color: #fff; */
+    margin-bottom: 50px;
+}
+
+.part_g {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    margin-top: 50px;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+}
+
+footer audio{
+    background-color: transparent;
 }
